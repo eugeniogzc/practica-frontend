@@ -1,0 +1,43 @@
+.contacto-container {
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.contacto-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contacto-btn:hover {
+    background-color: #0056b3;
+}
+
+.mensaje {
+    margin-top: 10px;
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
